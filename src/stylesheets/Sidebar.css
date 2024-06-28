@@ -1,0 +1,26 @@
+/* Sidebar.css */
+
+.sidebar {
+    width: 250px;
+    background-color: #222223;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .sidebar .btn {
+    width: 100%;
+    margin-bottom: 15px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .sidebar .btn .icon {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+      

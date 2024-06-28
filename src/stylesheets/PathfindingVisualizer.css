@@ -1,0 +1,31 @@
+/* PathfindingVisualizer.css */
+
+.visualizer-container {
+  display: flex;
+}
+
+.main-content {
+  flex: 1;
+  padding: 20px;
+}
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.row-spacing {
+  display: flex;
+  justify-content: center;
+}
+
+.icon-legend-container {
+  background-color: #080808; /* Background color */
+  padding: 10px; /* Padding around the content */
+  border: 1px solid #ccc; /* Border */
+  border-radius: 5px; /* Rounded corners */
+  margin-bottom: 10px; /* Bottom margin */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+}
